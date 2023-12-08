@@ -17,10 +17,10 @@ for ligne in lignes:
             indexN1 = ligne.find(carac)
             break
 
-    for carac in reversed(ligne):
+    for carac in ligne[::-1]:
         if carac.isnumeric():
             num2 = int(carac)
-            indexN2 = reversed(ligne).find(carac)
+            indexN2 = ligne[::-1].find(carac)
             break
 
     numInStr = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
