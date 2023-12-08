@@ -13,9 +13,13 @@ somme = 0
 
 for carac in lignes[0]:
     if carac.isnumeric():
-        somme += int(carac)*10
+        value = int(carac)*10
+        print(value)
+        somme += value
 for carac in reversed(lignes[0]):
     if carac.isnumeric():
-        somme += int(carac)
+        value = int(carac)
+        print(value)
+        somme += value
 
 print(somme)
