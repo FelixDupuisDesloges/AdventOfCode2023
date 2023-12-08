@@ -16,6 +16,7 @@ for carac in lignes[0]:
         value = int(carac)*10
         print(value)
         somme += value
+        continue
 for carac in reversed(lignes[0]):
     if carac.isnumeric():
         value = int(carac)
