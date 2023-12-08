@@ -22,5 +22,6 @@ for carac in reversed(lignes[0]):
         value = int(carac)
         print(value)
         somme += value
+        continue
 
 print(somme)
